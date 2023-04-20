@@ -33,3 +33,25 @@
 | ![Lot1 - t-test](https://user-images.githubusercontent.com/117063056/233480945-5a17de96-5f1d-4042-8270-b753a72f5504.png) | ![Lot2 - t-test](https://user-images.githubusercontent.com/117063056/233480957-eb48b86b-127f-4c28-8cbe-ae70dfe2e5a6.png) | ![Lot3 - t-test](https://user-images.githubusercontent.com/117063056/233480972-cd8d4796-fe0c-4d0f-964f-60a534b06939.png) |
 
 Based on the results of the t-tests, the p-value for the total sample of manufacturing lots was not statistically significant, indicating that the mean PSI is not statistically different from the population mean of 1,500 pounds per square inch. However, when each manufacturing lot is analyzed separately, the results show that Lot 1 and Lot 2 do not differ significantly from the population mean, while Lot 3 does show a statistically significant difference The mean PSI for Lot 3 is significantly lower than the population mean of 1,500 pounds per square inch.
+
+## Study Design: MechaCar vs Competition
+
+The statistical study will compare the cost and fuel efficiency of MechaCar vehicles against vehicles from other manufacturers.
+
+- What metric or metrics are you going to test?
+
+  Miles per gallon (MPG)
+
+- What is the null hypothesis or alternative hypothesis?
+
+  H0: MechaCar vehicles have the same mean cost and mean fuel efficiency as vehicles from other manufacturers
+  H1: MechaCar vehicles have different mean costs and/or mean fuel efficiency compared to cars from other manufacturers
+
+- What statistical test would you use to test the hypothesis? And why?
+
+  A two-sample t-test will be used to test the hypothesis. This test compares the means of two independent groups to determine if they are statistically different
+
+- What data is needed to run the statistical test?
+  - The cost and fuel efficiency
+  - Specific models of the vehicles, such as vehicle weight or engine type.
+  
