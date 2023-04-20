@@ -27,3 +27,9 @@
   Based on the total summary, the variance of the suspension coils is 62.29 PSI, which is below the design specification of 100 PSI. Therefore, the manufacturing data     meets the design specification for all manufacturing lots in total. On the other hand, Lot3 has a 170.29 PSI variance, which exceeds the design specifications of 100     PSI. While the current manufacturing data meets the design specification for all manufacturing lots in total, it does not meet the design specification for each lot     individually.
 
 ## T-Tests on Suspension Coils
+
+| Lot1 - t-test | Lot2 - t-test | Lot3 - t-test |
+| :---: | :---: | :---: |
+| ![Lot1 - t-test](https://user-images.githubusercontent.com/117063056/233480945-5a17de96-5f1d-4042-8270-b753a72f5504.png) | ![Lot2 - t-test](https://user-images.githubusercontent.com/117063056/233480957-eb48b86b-127f-4c28-8cbe-ae70dfe2e5a6.png) | ![Lot3 - t-test](https://user-images.githubusercontent.com/117063056/233480972-cd8d4796-fe0c-4d0f-964f-60a534b06939.png) |
+
+Based on the results of the t-tests, the p-value for the total sample of manufacturing lots was not statistically significant, indicating that the mean PSI is not statistically different from the population mean of 1,500 pounds per square inch. However, when each manufacturing lot is analyzed separately, the results show that Lot 1 and Lot 2 do not differ significantly from the population mean, while Lot 3 does show a statistically significant difference The mean PSI for Lot 3 is significantly lower than the population mean of 1,500 pounds per square inch.
